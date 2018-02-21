@@ -128,7 +128,7 @@ helper.reduceObject({
 }, ['city', 'country']);
 ```
 ```js
->> { name: 'Bobby' }
+>> { name: 'Robin' }
 ```
 
 Works also the other way around...
