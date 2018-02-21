@@ -1,0 +1,73 @@
+{
+    "app": {
+        "cacheKeys": {
+            "OAuthToken": "oauth_token"
+        }
+    },
+    "credentials": {
+        "name":     "",
+        "password": ""
+    },
+    "api": {
+        "credentials": {
+            "client_id":  "",
+            "auth_token": ""
+        },
+        "api_endpoint": "https://api.put.io/v2",
+        "redirect_uri": "",
+        "requestDefaultOptions": {
+            "headers" : {
+                "Content-Type": "application/json"
+            },
+            "json": true,
+            "resolveWithFullResponse": true
+        },
+        "endpoints": {
+            "authenticate":            "/oauth2/authenticate",
+            "files": {
+                "list":                "/files/list",
+                "createFolder":        "/files/create-folder",
+                "rename":              "/files/rename",
+                "move":                "/files/move",
+                "search":              "/files/search/%(queryString)s/page/%(page)s",
+                "mp4":                 "/files/%(fileId)s/mp4",
+                "delete":              "/files/delete",
+                "playlist":            "/files/%(fileId)s/hls/media.m3u8",
+                "subtitlesDownload":   "/files/%(fileId)s/subtitles/%(subKey)s",
+                "subtitles":           "/files/%(fileId)s/subtitles",
+                "share":               "/files/share",
+                "unshare":             "/files/%(fileId)s/unshare",
+                "deleteVideoPosition": "/files/%(fileId)s/start-from/delete",
+                "setVideoPosition":    "/files/%fileId)s/start-from",
+                "sharedWidth":         "/files/%(fileId)s/shared",
+                "shared":              "/files/shared",
+                "get":                 "/files/%(fileId)s"
+            },
+            "zips": {
+                "list":                "/zips/list",
+                "create":              "/zips/create",
+                "get":                 "/zips/%(zipId)s"
+            },
+            "friends": {
+                "list":                "/friends/list",
+                "waitingRequests":     "/friends/waiting-requests",
+                "request":             "/friends/%(username)s/request",
+                "deny":                "/friends/%(username)s/deny",
+                "unfriend":            "/friends/%(username)s/unfriend",
+                "approve":             "/friends/%(username)s/approve"
+            },
+            "transfers": {
+                "list":                "/transfers/list",
+                "get":                 "/transfers/%(fileId)s",
+                "clean":               "/transfers/clean",
+                "retry":               "/transfers/retry",
+                "cancel":              "/transfers/cancel",
+                "add":                 "/transfers/add"
+            },
+            "events": {
+                "list":                "/events/list",
+                "delete":              "/events/delete"
+            }
+        }
+    }
+}
