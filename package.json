@@ -1,0 +1,38 @@
+{
+  "name": "put.io-api-v2-node.js-client",
+  "version": "1.0.0",
+  "description": "Put.io API V2 Node.js Client",
+  "main": "examples.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulletinmybeard/put.io-api-v2-node.js-client.git"
+  },
+  "keywords": [
+    "put.io",
+    "node.js",
+    "javascript",
+    "api"
+  ],
+  "author": "Robin Schulz <hello@rschu.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bulletinmybeard/put.io-api-v2-node.js-client/issues"
+  },
+  "homepage": "https://github.com/bulletinmybeard/put.io-api-v2-node.js-client#readme",
+  "dependencies": {
+    "@types/node": "^9.4.6",
+    "@types/request": "^2.47.0",
+    "localstorage-ponyfill": "^1.0.1",
+    "object-merge": "^2.5.1",
+    "printf": "^0.2.5",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  }
+}
