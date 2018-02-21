@@ -1,8 +1,10 @@
 Node.js Client for Put.io's API (V2)
 ===================================
 
-// not finished yet
-
+1.) Make a copy of `config.example.json` and rename it to `config.json`
+2.) Run `npm install`
+3.) Run `ts-node example.ts` and retrieve a paginated list of your files
+ 
 ## Supported API endpoints
 
 - [Account](#account)
