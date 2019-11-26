@@ -27,7 +27,7 @@
     "@types/request": "^2.47.0",
     "localstorage-ponyfill": "^1.0.1",
     "object-merge": "^2.5.1",
-    "printf": "^0.2.5",
+    "printf": "^0.5.2",
     "request": "^2.83.0",
     "underscore": "^1.8.3"
   },
