@@ -32,7 +32,7 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "ts-node": "^5.0.0",
+    "ts-node": "^8.5.2",
     "typescript": "^2.7.2"
   }
 }
