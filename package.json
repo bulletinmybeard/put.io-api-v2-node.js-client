@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bulletinmybeard/put.io-api-v2-node.js-client#readme",
   "dependencies": {
-    "@types/node": "^9.4.6",
+    "@types/node": "^12.12.20",
     "@types/request": "^2.47.0",
     "localstorage-ponyfill": "^1.0.1",
     "object-merge": "^2.5.1",
